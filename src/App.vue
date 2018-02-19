@@ -8,7 +8,7 @@
 </template>
 
 <script>
-import OdinFooter from '@/components/layout/Footer/Footer.vue'
+import OdinFooter from '@/components/layout/Footer/Footer.vue'  
 
 export default {
   name: 'app',
