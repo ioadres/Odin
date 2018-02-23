@@ -1,5 +1,9 @@
 <template>
-  
-<h1>gollllla</h1>
-
+  <div>
+    <h1>Hello World</h1>
+  </div>
 </template>
+
+<script>
+  export default {}
+</script>
