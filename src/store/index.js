@@ -1,19 +1,19 @@
-import Vuex from 'vuex';
-import Vue from 'vue';
-import modules from './modules';
+import Vuex from 'vuex'
+import Vue from 'vue'
+import modules from './modules'
 
-Vue.use(Vuex);
+Vue.use(Vuex)
 
-let store = null;
+let store = null
 
 const getStore = () => {
   if (!store) {
     store = new Vuex.Store({
       modules,
       strict: process.env.NODE_ENV !== 'production'
-    });
+    })
   }
-  return store;
-};
+  return store
+}
 
-export default getStore;
+export default getStore
