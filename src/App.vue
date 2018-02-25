@@ -1,25 +1,28 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-
-    {{hola}}
     
-    <odin-footer></odin-footer>
     <router-view></router-view>
+    
   </div>
 </template>
 
 <script>
-
+import {UserMutationTypes} from '@/store/user'
 import OdinFooter from '@/components/layout/Footer/Footer.vue'
 
 export default {
   name: 'app',
-  data () {
+  data() {
     return {
-      hola: 'APP VUEJS'
+      hola: ''
     }
   },
+  methods: {
+    increment(state, payload) {
+      this.$store.commit(UserMutationTypes.SET_FIRST_NAME, { value: 'test' })
+    }
+  },
+
   components: {OdinFooter}
 }
 </script>
