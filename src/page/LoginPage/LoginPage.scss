@@ -1,12 +1,11 @@
-.full-width-image {
-  position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
+body {
+  background: url(http://www.mrw.es/img/slide_Entregados.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
-  background-position: 0%;
-  background-image: url('http://www.mrw.es/img/slide_Entregados.jpg');
-  background-repeat:repeat;
 }
 
+h1,h2,h3,h4,h5, label{
+  color:#fff;
+}

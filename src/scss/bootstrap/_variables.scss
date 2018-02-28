@@ -1,25 +1,22 @@
-$white:    rgb(17, 172, 112) !default;
-$gray-100: #ca311d !default;
-$gray-200: #ca311d !default;
-$gray-300: #ca311d !default;
-$gray-400: #ca311d !default;
-$gray-500: #ca311d !default;
-$gray-600: #ca311d !default;
-$gray-700: #ca311d !default;
-$gray-800: #ca311d !default;
-$gray-900: #ca311d !default;
-$black:    rgb(27, 96, 175) !default;
+$white:    #f5f6fa !default;
+$blue:    #1626AA !default; //MRW
 
-
-$blue:    #ca311d !default;
-$indigo:  #ca311d !default;
-$purple:  #ca311d !default;
-$pink:    #ca311d !default;
-$red:     #ca311d !default;
-$orange:  #ca311d !default;
-$yellow:  #ca311d !default;
-$green:   #ca311d !default;
-$teal:    #ca311d !default;
-$cyan:    #ca311d !default;
+$indigo:  #6610f2 !default;
+$purple:  #6f42c1 !default;
+$pink:    #e83e8c !default;
+$red:     #FE4438 !default; //mrw
+$orange:  #fd7e14 !default;
+$yellow:  #ffc107 !default;
+$green:   #28a745 !default;
+$teal:    #20c997 !default;
+$cyan:    #17a2b8 !default;
 
 $enable-rounded:            false !default;
+$body-color:                #2E3235 !default;
+
+$secondary : #aab3c3;
+
+$color-custom-primary : #FE4438;
+$color-custom-secundary : #1626AA;
+
+//$font-family-base:            $font-family-sans-serif !default;

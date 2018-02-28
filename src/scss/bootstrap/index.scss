@@ -36,3 +36,9 @@
 @import "../../../node_modules/bootstrap/scss/carousel";
 @import "../../../node_modules/bootstrap/scss/utilities";
 @import "../../../node_modules/bootstrap/scss/print";
+
+
+.btn-custom-primary {
+  @include button-variant($color-custom-primary, $color-custom-primary)
+}
+
