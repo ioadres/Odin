@@ -1,8 +1,6 @@
-const PageNames = {
-  Login: 'login'
-}
-export const PageRoutes = {
-  Login: '/login'
+export const PageNames = {
+  Login: 'login',
+  Home: 'home'
 }
 
 export default PageNames

@@ -1,36 +1,61 @@
 <template>
-
-  <div class="container-fluid p-5">
-    <div class="row">
-      <div class="offset-1 col-3">
-        <div class="hero">
-        <h2>Odin</h2>
-        <h5>Una app para dominarlas a todas</h5>          
+<div class="wrap">
+    <div class="container-fluid p-5">
+      <div class="row">
+        <div class="offset-1 col-2">
+          <img src="../../assets/logo_white.svg" width="120">
         </div>
       </div>
-    </div>
-    <div class="row"><div class="col-12">&nbsp;</div></div>
-    <div class="row">
-      <div class="offset-1 col-3">
-        <form v-on:submit="checkForm">
-          <div class="form-group row">
-            <label class="col-2 col-form-label col-form-label-lg">Usuario</label>
-            <div class="col-12">
-              <input type="text" class="form-control" v-model="username" required>
+
+      <div class="row">
+        <div class="offset-1 col-2">
+          &nbsp;
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="offset-1 col-4">
+          <h2>Gestión de integración (Odin)</h2>
+          <h5>Una app para dominarlas a todas</h5>  
+        </div>
+      </div>
+      <div class="row"><div class="col-12">&nbsp;</div></div>
+      <div class="row"><div class="col-12">&nbsp;</div></div>
+
+      <div class="row"><div class="offset-1 col-3"><h3>Iniciar sesión</h3></div></div>
+      
+      <div class="row"><div class="col-12">&nbsp;</div></div>      
+
+      <div class="row">
+        <div class="offset-1 col-3">
+          
+          <form v-on:submit="checkForm">
+            <div class="form-group row">
+              <div class="col-12">
+                <input type="text" class="form-control form-control-lg" placeholder="Usuario" v-model="username" required>
+              </div>
             </div>
-          </div>
-          <div class="form-group row">
-            <label class="col-2 col-form-label col-form-label-lg">Contraseña</label>
-            <div class="col-12">
-              <input type="password" class="form-control" v-model="password" required>
+           
+            <div class="form-group row">
+              <div class="col-12">
+                <input type="password" class="form-control form-control-lg" placeholder="Contraseña" v-model="password" required>
+              </div>
             </div>
-          </div>
-          <div class="form-group row">
-            <div class="col-12">
-              <input type="submit" class="btn btn-lg btn-custom-primary" value="Acceder"/>
+            
+            
+            <div class="col-12 text-center"><h5>¿Olvidastes tu contraseña?</h5></div>
+
+            <div class="col-12">&nbsp;</div>            
+            <div class="col-12">&nbsp;</div>
+
+            <div class="form-group row justify-content-center">
+              <div class="col-5">
+                <input type="submit" class="btn btn-lg btn-custom-primary" value="Login"/>
+              </div>
             </div>
-          </div>
-        </form>
+
+          </form>
+        </div>
       </div>
     </div>
   </div>
@@ -39,6 +64,6 @@
 <script src="./LoginPage.js">
 </script>
 
-<style src="./LoginPage.scss" lang="scss">
+<style src="./LoginPage.scss" lang="scss" scoped>
 </style>
 

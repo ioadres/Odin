@@ -1,11 +1,15 @@
-body {
-  background: url(http://www.mrw.es/img/slide_Entregados.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
 h1,h2,h3,h4,h5, label{
   color:#fff;
 }
+
+.wrap{  
+  min-height: 100%;
+  height: auto;
+  background:url(../../assets/background/lines_electric.svg) no-repeat;   
+  background-size: cover;  
+  background-color: #19133B;
+ }
+
+ .btn-custom-primary{
+   width: 150px;
+ }

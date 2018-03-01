@@ -1,1 +1,5 @@
-@import './bootstrap/index.scss'
+@import './bootstrap/index.scss';
+
+html, body, #app {
+  height: 100%;
+}

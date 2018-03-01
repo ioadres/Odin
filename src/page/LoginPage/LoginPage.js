@@ -1,3 +1,5 @@
+import odinApi from '@/api/ApiOdin'
+
 export default {
   name: 'LoginPage',
   data() {
@@ -9,7 +11,7 @@ export default {
   methods: {
     checkForm(e) {
       e.preventDefault();
-      console.log(this.username + '-' + this.password);
+      this.$router.push({name:'home'})
     }
   }
 }

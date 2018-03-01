@@ -1,10 +1,12 @@
-$white:    #f5f6fa !default;
+$white:    #F6F6F6 !default;//MRW
+$blue-main: #19133B!default;//MRW
 $blue:    #1626AA !default; //MRW
+
 
 $indigo:  #6610f2 !default;
 $purple:  #6f42c1 !default;
 $pink:    #e83e8c !default;
-$red:     #FE4438 !default; //mrw
+$red:     #C3110A !default; //mrw
 $orange:  #fd7e14 !default;
 $yellow:  #ffc107 !default;
 $green:   #28a745 !default;
@@ -12,11 +14,25 @@ $teal:    #20c997 !default;
 $cyan:    #17a2b8 !default;
 
 $enable-rounded:            false !default;
-$body-color:                #2E3235 !default;
 
-$secondary : #aab3c3;
+$body-color:                $blue-main !default;//MRW
 
-$color-custom-primary : #FE4438;
-$color-custom-secundary : #1626AA;
+$secondary : #9B9B9B!default;//MRW
+$color-custom-primary : #FE4438!default;//MRW
+
+
+
+$font-size-base:              1rem !default;
+$h6-font-size:                14px !default;
+$h1-font-size:                41px !default;
+$h2-font-size:                33px !default;
+$h3-font-size:                26px !default;
+$h4-font-size:                20px !default;
+$h5-font-size:                18px !default;
 
 //$font-family-base:            $font-family-sans-serif !default;
+
+
+
+$input-color:       $blue-main!default;
+
