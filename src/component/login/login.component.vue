@@ -3,7 +3,7 @@
     <div class="container-fluid p-5">
       <div class="row">
         <div class="offset-1 col-2">
-          <img src="../../assets/logo_white.svg" width="120">
+          <img src="../../asset/logo_white.svg" width="120">
         </div>
       </div>
 
@@ -61,9 +61,9 @@
   </div>
 </template>
 
-<script src="./LoginPage.js">
+<script src="./login.component.js">
 </script>
 
-<style src="./LoginPage.scss" lang="scss" scoped>
+<style src="./login.component.scss" lang="scss" scoped>
 </style>
 

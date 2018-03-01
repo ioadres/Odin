@@ -2,7 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import BootstrapVue from '@/../node_modules/bootstrap-vue/dist/bootstrap-vue.esm'
 
-import App from './App.vue'
+import App from './app.component.vue'
 import routes from '@/route'
 import getStore from '@/store'
 

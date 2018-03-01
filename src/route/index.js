@@ -1,26 +1,15 @@
-import LoginPage from '@/page/LoginPage'
-import HomePage from '@/page/HomePage'
+import HomeModule from '@/component/home'
+import LoginModule from '@/component/login'
 
-import PageNames from '@/data/enum/PageNames'
-import PageRoutes from '@/data/enum/PageRoutes'
+console.log(...HomeModule.routes)
 
 const routes = [
   {
-    path: PageRoutes.Login,
-    component: LoginPage,
-    name: PageNames.Login,
-    meta: {
-      isPublic: true
-    }
+    path: '/',
+    redirect: '/home'
   },
-  {
-    path: PageRoutes.Home,
-    component: HomePage,
-    name: PageNames.Home,
-    meta: {
-      isPublic: true
-    }
-  }
+  ...HomeModule.routes,
+  ...LoginModule.routes
 ]
 
 export default routes

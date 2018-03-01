@@ -1,7 +1,7 @@
-import odinApi from '@/api/ApiOdin'
+import odinApi from '@/service/odin.service'
 
 export default {
-  name: 'LoginPage',
+  name: 'LoginComponent',
   data() {
     return {
       username: '',

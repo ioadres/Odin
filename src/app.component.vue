@@ -9,7 +9,7 @@
 <script>
 
 import {UserMutationTypes} from '@/store/user'
-import OdinFooter from '@/components/layout/Footer/Footer.vue'
+import OdinFooter from '@/component/shared/footer/footer.component.vue'
 
 export default {
   name: 'app',
@@ -29,5 +29,5 @@ export default {
 </script>
 
 <style lang="scss">
-  @import './scss/main.scss'
+  @import './style/main.scss'
 </style>
