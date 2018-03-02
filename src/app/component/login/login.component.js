@@ -1,5 +1,3 @@
-import odinApi from '@/service/odin.service'
-
 export default {
   name: 'LoginComponent',
   data() {
@@ -10,8 +8,8 @@ export default {
   },
   methods: {
     checkForm(e) {
-      e.preventDefault();
-      this.$router.push({name:'home'})
+      e.preventDefault()
+      this.$router.push({name: 'home'})
     }
   }
 }

@@ -1,5 +1,5 @@
-import HomeModule from '@/component/home'
-import LoginModule from '@/component/login'
+import HomeModule from '@/app/component/home'
+import LoginModule from '@/app/component/login'
 
 console.log(...HomeModule.routes)
 
