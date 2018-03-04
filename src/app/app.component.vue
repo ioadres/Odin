@@ -1,15 +1,16 @@
 <template>
   <div id="app">
-    
-    <router-view></router-view>
-    
+    <odin-header v-show="isAuthenticated()"></odin-header>
+    <div class="body-app">
+      <router-view></router-view>
+    </div>
   </div>
 </template>
 
 <script>
 
 import {UserMutationTypes} from './store/user'
-import OdinFooter from './component/shared/footer'
+import HeaderComponent from './component/shared/header'
 
 export default {
   name: 'app',
@@ -21,10 +22,13 @@ export default {
   methods: {
     increment(state, payload) {
       this.$store.commit(UserMutationTypes.SET_FIRST_NAME, { value: 'test' })
+    },
+    isAuthenticated() {
+      return this.$route.name !== 'login'
     }
   },
 
-  components: {OdinFooter}
+  components: {[HeaderComponent.tag]: HeaderComponent}
 }
 </script>
 

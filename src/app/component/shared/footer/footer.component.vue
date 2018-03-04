@@ -6,6 +6,7 @@
 
 <script>
   export default {
+    name: 'FooterComonent',
     data () {
       return {
         message: 'my footer'
