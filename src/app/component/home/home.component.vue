@@ -10,7 +10,7 @@
         </div>
     </div>
     <div class="offset-1 col-4">    
-        <div class="card-home bg-danger">
+        <div class="card-home bg-danger-light">
           <h2>Supervisar Logs </h2>
           <h6>Gestione los logs de las aplicaciones de integración</h6>
         </div>
@@ -45,11 +45,29 @@
         </thead>
         <tbody>
           <tr>
-            <td>Chronos</th>            
+            <td>Chronos</td>            
             <td class="blockquote-footer">Exception : Not implemented method</td>
             <td>25</td>
             <td><span class="badge badge-danger">Peligro</span></td>
-          </tr>                     
+          </tr>    
+           <tr>
+            <td>Ullr</td>            
+            <td class="blockquote-footer">Exception : Not implemented method</td>
+            <td>15</td>
+            <td><span class="badge badge-danger">Peligro</span></td>
+          </tr> 
+           <tr>
+            <td>Click</td>            
+            <td class="blockquote-footer">Exception : Not implemented method</td>
+            <td>2</td>
+            <td><span class="badge badge-warning">Cuidado</span></td>
+          </tr> 
+           <tr>
+            <td>Freya</td>            
+            <td class="blockquote-footer">Exception : Not implemented method</td>
+            <td>1</td>
+            <td><span class="badge badge-success">Ok!</span></td>
+          </tr>             
         </tbody>
       </table>
     </div>

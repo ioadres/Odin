@@ -21,18 +21,66 @@ $teal:          #20c997 !default;
 $cyan:          #17a2b8 !default;
 
 $body-color:    $blue-main !default;//MRW
-$color-custom-primary : #FE4438 !default;// Customs
+$red-light : #FE4438 !default;// Customs
 
 //### END Colors
 
 //### START Themes
+
+// stylelint-disable
+$white:    #fff !default;
+$gray-100: #f8f9fa !default;
+$gray-200: #e9ecef !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #adb5bd !default;
+$gray-600: #6c757d !default;
+$gray-700: #495057 !default;
+$gray-800: red !default;
+$gray-900: #212529 !default;
+$black:    #000 !default;
+
+$colors: () !default;
+$colors: map-merge((
+  "blue":       $blue,
+  "indigo":     $indigo,
+  "purple":     $purple,
+  "pink":       $pink,
+  "red":        $red,
+  "red-light":  $red-light,
+  "orange":     $orange,
+  "yellow":     $yellow,
+  "green":      $green,
+  "teal":       $teal,
+  "cyan":       $cyan,
+  "white":      $white,
+  "gray":       $gray-600,
+  "gray-dark":  $gray-800
+), $colors);
+
 $primary:       $blue !default;
 $secondary :    #9B9B9B !default;//MRW
 $success:       $green !default;
 $info:          $cyan !default;
 $warning:       $yellow !default;
 $danger:        $red !default;
+$danger-light:        $red-light !default;
+$light:         $gray-100 !default;
 $dark:          $blue-main !default;
+
+$theme-colors: () !default;
+$theme-colors: map-merge((
+  "primary":    $primary,
+  "secondary":  $secondary,
+  "success":    $success,
+  "info":       $info,
+  "warning":    $warning,
+  "danger":     $danger,
+  "danger-light":     $danger-light,
+  "light":      $light,
+  "dark":       $dark
+), $theme-colors);
+
 //### END Themes
 
 //### START Fonts

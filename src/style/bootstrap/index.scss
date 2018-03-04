@@ -40,7 +40,7 @@
 
 
 .btn-custom-primary {
-  @include button-variant($color-custom-primary, $color-custom-primary)
+  @include button-variant($red-light, $red-light)
 }
 
 
