@@ -10,8 +10,11 @@
 
 .card-home {
   padding: 1.2rem;
-  height: 100%;
-  border-top: 0.125rem solid $blue-main;
+  height: 100%; 
+  &:hover{
+    opacity: 0.9;
+    cursor:pointer;
+  }
   h1,h2,h3,h4,h5,h6 {
     color: $white;
     font-weight: inherit;

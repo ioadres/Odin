@@ -4,13 +4,13 @@
   <div class="container">
    <div class="row">    
     <div class="offset-1 col-4">    
-        <div class="card-home bg-primary">
+        <div class="bg-primary border border-dark card-home" >
           <h2>Crear nuevo cliente</h2>
           <h6>Gestione la alta de un cliente con las aplicaciones de integración.</h6>
         </div>
     </div>
     <div class="offset-1 col-4">    
-        <div class="card-home bg-danger-light">
+        <div class="bg-danger-light border border-dark card-home ">
           <h2>Supervisar Logs </h2>
           <h6>Gestione los logs de las aplicaciones de integración</h6>
         </div>
