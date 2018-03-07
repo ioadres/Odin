@@ -1,9 +1,9 @@
-import HomeComponent from './home.component.vue'
+var homeComponent = resolve => require(['./home.component.vue'], resolve)
 
 export default [
   {
     path: '/home',
-    component: HomeComponent,
+    component: homeComponent,
     name: 'home',
     meta: {
       isPublic: true

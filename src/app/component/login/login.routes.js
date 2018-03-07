@@ -1,9 +1,8 @@
-import LoginComponent from './login.component.vue'
-
+const loginComponent = resolve => require(['./login.component.vue'], resolve)
 export default [
   {
     path: '/login',
-    component: LoginComponent,
+    component: loginComponent,
     name: 'login',
     meta: {
       isPublic: true
