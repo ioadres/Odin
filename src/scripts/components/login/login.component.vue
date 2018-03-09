@@ -3,7 +3,7 @@
     <div class="container-fluid p-5">
       <div class="row">
         <div class="offset-1 col-2">
-          <img src="../../../asset/images/logo_white.svg" width="120">
+          <img src="../../../assets/images/logo_white.svg" width="120">
         </div>
       </div>
 

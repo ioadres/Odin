@@ -6,7 +6,7 @@
     <div class="offset-1 col-4">    
         <div class="bg-primary border border-dark card-home" >
           <h2>Crear nuevo cliente</h2>
-          <h6>Gestione la alta de un cliente con las aplicaciones de integración.</h6>
+          <h6>Gestione el alta de un cliente con las aplicaciones de integración.</h6>
         </div>
     </div>
     <div class="offset-1 col-4">    

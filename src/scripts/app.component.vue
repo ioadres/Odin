@@ -9,8 +9,8 @@
 
 <script>
 
-import {UserMutationTypes} from './store/user'
-import HeaderComponent from './component/shared/header'
+import {UserMutationTypes} from './stores/user'
+import HeaderComponent from './components/shared/header'
 
 export default {
   name: 'app',
@@ -33,5 +33,5 @@ export default {
 </script>
 
 <style lang="scss">
-  @import '../style/main.scss'
+  @import '../styles/main.scss'
 </style>

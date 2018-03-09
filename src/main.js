@@ -1,9 +1,9 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 
-import App from './app/app.component.vue'
-import routes from './app/route'
-import getStore from './app/store'
+import App from './scripts/app.component.vue'
+import routes from './scripts/routes'
+import getStore from './scripts/stores'
 
 Vue.use(VueRouter)
 

@@ -4,7 +4,7 @@
     
     <div class="collapse navbar-collapse justify-content-center">
       <a class="navbar-brand" href="#">
-        <img src="../../../../asset/images/logo_white.svg" width="110" class="d-inline-block align-top" alt="">
+        <img src="../../../../assets/images/logo_white.svg" width="110" class="d-inline-block align-top" alt="">
       </a>
       <ul class="navbar-nav">
         <li class="nav-item active">
@@ -17,7 +17,7 @@
           <a class="h6 nav-link" href="#">Ullr</a>
         </li>
         <li class="nav-item">
-          <a class="h6 nav-link" href="#">Chronos</a>
+          <router-link to="chronos" class="h6 nav-link">Chronos</router-link>
         </li>
         <li class="nav-item">
           <a class="h6 nav-link" href="#">Click</a>
